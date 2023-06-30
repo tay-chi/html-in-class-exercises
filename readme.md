@@ -3,7 +3,7 @@
 ### Headers section PART ONE (headers)
 
 1. Read these instructions at least once before you begin
-2. Navigate to html-in-class-instructor/index.html
+2. Navigate to the index.html file.
 3. Take 10 minutes to look over the code. It's ok if it doesn't make sense yet.
 4. Find the <section> tag that has a class attribute with a value of "headers-section"
 5. Add 6 headers, from h1 to h6, inside the <section> tag. The text that is rendered to the screen should reflect the tag that is wrapped around it. So the h1 should let the user know "this is an h1", h2 renders "this is an h2", and so on
