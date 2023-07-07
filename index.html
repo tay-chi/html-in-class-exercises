@@ -50,9 +50,23 @@
           <a href="https://anniecannons.org">
             <button class="button">Learn More</button>
           </a>
-          </div>
+      </div>
         <div class="form-wrapper">
           <h1 class="form-header">Request a Quote</h1>
+          <div
+          <form>
+            <input type="text" id="firstname" name="first name" required="yes" placeholder="First Name">
+            <input type="text" id="lastname" name="last name" required="yes" placeholder="Last Name">
+            <input type="text" id="email" name="email" required="yes" placeholder="email">
+            <select id="budget-range" name="budget-range" required>
+              <option value="unselected" disabled selected>Select Budget Range</option>
+              <option value="personal">Personal Budget</option>
+              <option value="professional">Professional Budget</option>
+              <option value="organizational">Organizational Budget</option>
+            </select>
+            <input type="submit" value="Submit">
+          </form>
+          </div>
     
     </section>
     <section class="about-section">
